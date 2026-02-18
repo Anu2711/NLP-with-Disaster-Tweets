@@ -39,7 +39,7 @@ def preprocess_text(text):
 # -------- Inference --------
 def classify_tweet(tweet, tokenizer, model):
     tweet_cleaned = preprocess_text(tweet)
-    encoding = tokenizer.encode_plus(
+    encoding = tokenizer(
         tweet_cleaned,
         add_special_tokens=True,
         max_length=84,

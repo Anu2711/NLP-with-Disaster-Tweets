@@ -4,8 +4,11 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-Transformers-red.svg)
 ![Kaggle](https://img.shields.io/badge/Kaggle-Competition-20BEFF.svg)
 ![F1 Score](https://img.shields.io/badge/F1%20Score-0.82-success.svg)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nlp-with-disaster-tweets-rdhija2lcpwtappxbig2ws.streamlit.app/)
 
 A natural language processing project that classifies tweets as disaster-related or not, leveraging DistilBERT and multi-GPU training.
+
+**[Try the live demo](https://nlp-with-disaster-tweets-rdhija2lcpwtappxbig2ws.streamlit.app/)**
 
 ## 🎯 Project Overview
 
@@ -96,4 +99,4 @@ The competition evaluates submissions using the **F1-score**, which balances pre
 
 - [ ] **Ensemble methods**: Combine DistilBERT with other transformer models (RoBERTa, ALBERT)
 - [ ] **Error analysis**: Deep dive into misclassified tweets to identify patterns
-- [ ] **Deployment**: Create REST API for real-time disaster tweet detection
+- [x] **Deployment**: Live Streamlit app for real-time disaster tweet classification
