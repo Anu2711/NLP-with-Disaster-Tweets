@@ -1,0 +1,13 @@
+# Model files (hosted on HuggingFace Hub instead)
+bert_tweet_classifier/
+
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
